@@ -1,0 +1,309 @@
+/* Estilo general */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Asegura que el contenido fluya hacia abajo */
+    width: 100%;
+}
+
+/* Cabecera */
+.hero {
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    width: 100%; /* Ocupa todo el ancho */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    color: black; /* Color del texto */
+    text-align: center;
+    padding: 20px;
+}
+
+.fondo1{
+    background-image: url('fondo1.jpeg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.title {
+    font-size: 3.5rem;
+    margin: 0; /* Asegura que no haya margen externo */
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-style: italic;
+}
+
+.subtitle {
+    font-size: 2rem;
+    margin: 0; /* Asegura que no haya margen superior ni inferior */
+    padding-top: 10px; /* Si deseas algo de separación controlada */
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-style: italic;
+}
+
+/* seccion 1 */
+
+.section-1 {
+    background-color: #fde3fd;
+    padding: 20px;
+    border-radius: 0;
+    width: 100%;
+}
+
+.pphoto {
+    width: 25%;
+    height: auto;
+    max-height: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.phrase-1 {
+    color : black;
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* seccion 2 */
+.section-2 {
+    background-color: #fec0ff;
+    color: white;
+    padding: 20px; /* Reducido para minimizar el espacio interno */
+    margin: 0; /* Elimina cualquier margen extra */
+    position: relative;
+    width: 100%;
+}
+
+.bendicion-1{
+    color : black; 
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.parents-name{
+    color : black;  
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.bendicion-2{
+    color : black;  
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.bendicion-3{
+    color : black; 
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.date{
+    color : black; 
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* seccion 3 */
+
+.section-3 {
+    background-color: #fde3fd;
+    color: white;
+    padding: 20px; /* Reducido para minimizar el espacio interno */
+    margin: 0; /* Elimina cualquier margen extra */
+    position: relative;
+    width: 100%;
+}
+
+.church-1{
+    color : black;  
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.church-2{
+    color : black;  
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.church-time{
+    color : black;  
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.church-image {
+    width: 25%; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    max-width: 600px; /* Tamaño máximo para que no sea demasiado grande */
+    margin: 0 auto;
+    display: block;
+}
+
+.location-button {
+    background-color: #ea00ff; /* Color de fondo */
+    color: white;              /* Color de texto */
+    padding: 10px 20px;        /* Espaciado interno */
+    border: none;             /* Sin bordes */
+    cursor: pointer;          /* Cursor de mano */
+    font-size: 16px;           /* Tamaño de fuente */
+    margin-top: 10px;          /* Espacio superior */
+    border-radius: 5px;       /* Bordes redondeados */
+}
+
+.location-button:hover {
+    background-color: #ff9fe2; /* Color de fondo cuando se pasa el mouse */
+}
+
+/* seccion 4 */
+
+.section-4 {
+    background-color: #fec0ff;
+    color: white;
+    padding: 20px; /* Reducido para minimizar el espacio interno */
+    margin: 0; /* Elimina cualquier margen extra */
+    position: relative;
+    width: 100%;
+}
+
+.recepcion-1{
+    color : black;  
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.recepcion-2{
+    color : black;  
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.recepcion-time{
+    color : black;  
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.reception-image {
+    width: 25%; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    max-width: 600px; /* Tamaño máximo para que no sea demasiado grande */
+    margin: 0 auto;
+    display: block;
+}
+
+.reception-button{
+    background-color: #ea00ff; /* Color de fondo */
+    color: white;              /* Color de texto */
+    padding: 10px 20px;        /* Espaciado interno */
+    border: none;             /* Sin bordes */
+    cursor: pointer;          /* Cursor de mano */
+    font-size: 16px;           /* Tamaño de fuente */
+    margin-top: 10px;          /* Espacio superior */
+    border-radius: 5px;       /* Bordes redondeados */  
+}
+
+.reception-button:hover {
+    background-color: #ff9fe2; /* Color de fondo cuando se pasa el mouse */
+}
+
+/* seccion 5 */
+
+.section-5{
+    background-color: #fde3fd;
+    color: black;
+    padding: 20px; /* Reducido para minimizar el espacio interno */
+    margin: 0; /* Elimina cualquier margen extra */
+    position: relative;
+    width: 100%;
+}
+
+.frase-regalo{
+    color : black;  
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.gift-image{
+    width: 25%; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    max-width: 600px; /* Tamaño máximo para que no sea demasiado grande */
+    margin: 0 auto;
+    display: block;
+}
+
+/* seccion 6 */
+
+.confirmation{
+    color : black;  
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.despedida{
+    color : black;  
+    font-family: 'Monotype Corsiva', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.confirmation-button{
+    background-color: #ea00ff; /* Color de fondo */
+    color: white;              /* Color de texto */
+    padding: 10px 20px;        /* Espaciado interno */
+    border: none;             /* Sin bordes */
+    cursor: pointer;          /* Cursor de mano */
+    font-size: 16px;           /* Tamaño de fuente */
+    margin-top: 10px;          /* Espacio superior */
+    border-radius: 5px;       /* Bordes redondeados */
+}
+
+.confirmation-button:hover {
+    background-color: #ff9fe2; /* Color de fondo cuando se pasa el mouse */
+}
+
+.footer {
+    background-color:  #fec0ff;
+    color: white;
+    padding: 20px;
+    position: relative; /* Cambiar a relativo si el pie de página no debe ser fijo */
+    width: 100%;
+    bottom: 0;
+}
